@@ -1,8 +1,8 @@
 # AstroNvim Template
 
-**NOTE:** This is for AstroNvim v5+
+这是一个从[AstroNvim](https://github.com/AstroNvim/AstroNvim)复制的配置
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+**NOTE:** This is for AstroNvim v5+
 
 ## 🛠️ Installation
 
@@ -24,7 +24,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/L-09/nvim ~/.config/nvim
 ```
 
 #### Start Neovim
