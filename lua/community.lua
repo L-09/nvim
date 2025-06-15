@@ -11,5 +11,8 @@ return {
   -- import/override with your plugins folder
 
   -- 导入html-css包
-  { import = "astrocommunity.pack.html-css"} 
+  { import = "astrocommunity.pack.html-css" },
+
+  -- 导入Rust包
+  { import = "astrocommunity.pack.rust" },
 }
