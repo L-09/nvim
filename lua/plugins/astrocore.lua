@@ -60,8 +60,8 @@ return {
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs
-        ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
-        ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
+        ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "下一个缓冲区" },
+        ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "上一个缓冲区" },
 
         -- mappings seen under group name "Buffer"
         ["<Leader>bd"] = {
