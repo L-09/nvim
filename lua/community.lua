@@ -15,4 +15,7 @@ return {
 
   -- 导入Rust包
   { import = "astrocommunity.pack.rust" },
+
+  -- 导入tabout-nvim
+  { import = "astrocommunity.motion.tabout-nvim" },
 }
